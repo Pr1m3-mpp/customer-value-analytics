@@ -1,2 +1,2 @@
 # customer-value-analytics
-Customer lifetime value prediction and marketing attribution analytics using SQL, probabilistic modeling, machine learning, and Power BI.
+Retail customer value analytics using SQL, RFM, probabilistic CLV modeling, and Power BI.
