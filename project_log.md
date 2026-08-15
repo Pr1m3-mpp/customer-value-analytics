@@ -193,3 +193,50 @@ Project scope was successfully refined and is ready for execution.
 
 Status: PASS
 
+
+
+\----------------------------------------------------------------------------------------------------------
+
+**Customer Data Preparation, SQL & RFM** — PASS
+
+
+
+Date: 2026-08-15
+
+
+
+Outputs:
+
+\* Cleaned UCI Online Retail transaction data.
+
+\* Completed three SQL analyses for transaction validation, customer RFM, and business KPIs.
+
+\* Built four customer segments: Champions, Loyal Customers, At Risk, and Others.
+
+\* Generated reusable Python scripts for data preparation, SQL execution, and RFM segmentation.
+
+
+
+Key Results:
+
+\- Customers: 4,338
+
+\- Orders: 18,532
+
+\- Revenue: 8,911,407.90
+
+\- Average Order Value: 480.87
+
+\- Repeat Customers: 2,845
+
+\- Repeat Purchase Rate: 65.58%
+
+
+
+Result:
+
+Customer-level RFM features, business KPIs, and customer segmentation were successfully generated and validated.
+
+
+
+Status: PASS
