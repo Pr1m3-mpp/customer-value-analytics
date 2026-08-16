@@ -6,8 +6,7 @@ Environment:
 - OS: Windows
 - Conda environment: clv-analytics
 - Python: 3.12.13
-- Python path:
-  D:\\Users\\mpp\\Software\\anaconda3\\envs\\clv-analytics\\python.exe
+- Python path: `D:\Users\mpp\Software\anaconda3\envs\clv-analytics\python.exe`
 - Git: 2.55.0.windows.3
 - Cursor: 3.15.6 x64
 
@@ -18,8 +17,7 @@ Status: PASS
 
 
 
-\----------------------------------------------------------------------------------------------------------
-
+---
 **P0-2 GitHub Repository Setup** — PASS
 
 Date: 2026-08-09
@@ -43,15 +41,14 @@ Status: PASS
 
 
 
-\----------------------------------------------------------------------------------------------------------
-
+---
 **P0-3 Local Project Directory Setup** — PASS
 
 Date: 2026-08-14
 
 Local Repository:
 * Project folder: `customer-value-analytics`
-* Local path: `C:\\Users\\mpp\\Desktop\\customer-value-analytics`
+* Local path: `C:\Users\mpp\Desktop\customer-value-analytics`
 * Remote repository: `Pr1m3-mpp/customer-value-analytics`
 * Branch: `main`
 
@@ -74,7 +71,7 @@ customer-value-analytics/
 ```
 
 Data Rules:
-- `data/raw/\*` and `data/processed/\*` are ignored by Git.
+- `data/raw/*` and `data/processed/*` are ignored by Git.
 - `.gitkeep` files remain trackable to preserve the directory structure.
 - Ignore rules were verified successfully using temporary test CSV files.
 
@@ -85,8 +82,7 @@ Status: PASS
 
 
 
-\----------------------------------------------------------------------------------------------------------
-
+---
 **P0-Reset Project Scope Reset** — PASS
 
 Date: 2026-08-14
@@ -94,7 +90,7 @@ Date: 2026-08-14
 Scope:
 - The original extended CLV + marketing attribution plan was deprecated.
 - The project scope was refocused on:
-  UCI Online Retail → SQL → RFM → BG/NBD + Gamma-Gamma → 90-day revenue-based CLV → Power BI → GitHub → Resume/Interview.
+  UCI Online Retail → SQL → RFM → BG/NBD + Gamma-Gamma → 90-day revenue-based CLV → Power BI.
 - BigQuery, Google Analytics, LightGBM, SHAP, Markov attribution, Streamlit, and other non-essential components were removed.
 - Existing Conda environment, GitHub repository, and local project structure were retained.
 
@@ -105,8 +101,7 @@ Status: PASS
 
 
 
-\----------------------------------------------------------------------------------------------------------
-
+---
 **Customer Data Preparation, SQL & RFM** — PASS
 
 Date: 2026-08-15
@@ -132,8 +127,7 @@ Status: PASS
 
 
 
-\----------------------------------------------------------------------------------------------------------
-
+---
 **CLV Modeling and Validation** — PASS
 
 Date: 2026-08-15
@@ -155,5 +149,28 @@ Outputs:
 
 Result:
 BG/NBD and Gamma-Gamma modeling, holdout validation, and 90-day revenue-based CLV prediction were successfully completed.
+
+Status: PASS
+
+
+
+---
+**Power BI Customer Value Dashboard** — PASS
+
+Date: 2026-08-16
+
+Dashboard:
+- Built a two-page Power BI dashboard using cleaned transaction and customer CLV data.
+- Customer Overview includes revenue, customers, orders, average order value, revenue trend, and customer segmentation.
+- CLV Analysis includes CLV distribution, Top 20 customers by predicted CLV, RFM × CLV analysis, and customer-level details.
+- Created four core DAX measures for business KPI reporting.
+
+Outputs:
+- `dashboard/customer_value_dashboard.pbix`
+- `reports/dashboard_overview.png`
+- `reports/dashboard_clv.png`
+
+Result:
+The Power BI dashboard for customer segmentation and CLV analysis was successfully completed and validated.
 
 Status: PASS
